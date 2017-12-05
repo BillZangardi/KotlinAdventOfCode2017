@@ -19,6 +19,7 @@ const val input = "1224\t926\t1380\t688\t845\t109\t118\t88\t1275\t1306\t91\t796\
 
 fun main(args: Array<String>) {
     println("Part one ${partOne()}")
+    println("Part two ${partTwo()}")
 }
 
 fun partOne(): Int {
@@ -38,6 +39,23 @@ fun partOne(): Int {
             }
         }
         sum += highest - lowest
+    }
+    return sum
+}
+
+fun partTwo(): Int {
+    var sum = 0
+    input.split('\n').forEach { value ->
+        value.split('\t').forEachIndexed { index, value2 ->
+            val current = value2.toInt()
+            val row = value.split('\t')
+            for (i in 0 until row.size) {
+                if (i != index && current % row[i].toInt() == 0) {
+                    sum += current / row[i].toInt()
+                    break
+                }
+            }
+        }
     }
     return sum
 }

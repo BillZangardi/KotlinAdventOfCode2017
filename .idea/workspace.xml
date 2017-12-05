@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e6e002e-48e0-4ab2-a245-f1507ebbbfa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day2/Day2.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KotlinAdventOfCode2017/META-INF/KotlinAdventOfCode2017.kotlin_module" afterPath="$PROJECT_DIR$/out/production/KotlinAdventOfCode2017/META-INF/KotlinAdventOfCode2017.kotlin_module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Day2/Readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day1/Day1.kt" afterPath="$PROJECT_DIR$/src/Day1/Day1.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Day2/Day2.kt" afterPath="$PROJECT_DIR$/src/Day2/Day2.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,18 @@
       <file leaf-file-name="Day2.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Day2/Day2.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="444">
+              <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Day2/Readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -50,20 +59,20 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1465">
-              <caret line="317" column="37" lean-forward="false" selection-start-line="317" selection-start-column="37" selection-end-line="317" selection-end-column="37" />
+            <state relative-caret-position="1615">
+              <caret line="327" column="37" lean-forward="false" selection-start-line="327" selection-start-column="37" selection-end-line="327" selection-end-column="37" />
               <folding>
-                <marker date="1512514236000" expanded="true" signature="23015:23057" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23015:23075" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23015:23088" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23015:23103" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23138:23521" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23151:23506" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23186:23492" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23205:23477" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23279:23457" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23319:23423" ph="..." />
-                <marker date="1512514236000" expanded="true" signature="23340:23401" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23763:23805" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23763:23823" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23763:23836" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23763:23851" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23886:24269" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23899:24254" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23934:24240" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="23953:24225" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="24027:24205" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="24067:24171" ph="..." />
+                <marker date="1512515159000" expanded="true" signature="24088:24149" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,6 +100,7 @@
       <list>
         <option value="$PROJECT_DIR$/KotlinAdventOfCode2017.iml" />
         <option value="$PROJECT_DIR$/src/Day1/Day1.kt" />
+        <option value="$PROJECT_DIR$/src/Day2/Readme.txt" />
         <option value="$PROJECT_DIR$/src/Day2/Day2.kt" />
       </list>
     </option>
@@ -282,6 +292,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="-277" width="1920" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -337,21 +348,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1465">
-          <caret line="317" column="37" lean-forward="false" selection-start-line="317" selection-start-column="37" selection-end-line="317" selection-end-column="37" />
+        <state relative-caret-position="1615">
+          <caret line="327" column="37" lean-forward="false" selection-start-line="327" selection-start-column="37" selection-end-line="327" selection-end-column="37" />
           <folding>
-            <marker date="1512514236000" expanded="true" signature="23015:23057" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23015:23075" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23015:23088" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23015:23103" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23138:23521" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23151:23506" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23186:23492" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23205:23477" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23279:23457" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23319:23423" ph="..." />
-            <marker date="1512514236000" expanded="true" signature="23340:23401" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23763:23805" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23763:23823" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23763:23836" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23763:23851" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23886:24269" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23899:24254" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23934:24240" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="23953:24225" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="24027:24205" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="24067:24171" ph="..." />
+            <marker date="1512515159000" expanded="true" signature="24088:24149" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day2/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -365,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day2/Day2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="444">
+          <caret line="48" column="59" lean-forward="false" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
           <folding />
         </state>
       </provider>
