@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 }
 
 fun partOne(input: String): Int {
-    var total = 0;
+    var total = 0
     input.split('\n').forEach line@ { password ->
         password.split(' ').forEachIndexed word@ { passwordIndex, word ->
             val row = password.split(' ')
@@ -26,7 +26,7 @@ fun partOne(input: String): Int {
 }
 
 fun partTwo(input: String): Int {
-    var total = 0;
+    var total = 0
     input.split('\n').forEach line@ { password ->
         password.split(' ').forEachIndexed word@ { passwordIndex, word ->
             val row = password.split(' ')
