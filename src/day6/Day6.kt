@@ -5,7 +5,6 @@ val input = "11\t11\t13\t7\t0\t15\t5\t5\t4\t4\t1\t1\t7\t1\t15\t11"
 
 fun main(args: Array<String>) {
     println("Part one ${partOne(input.split('\t') as MutableList<String>)}")
-    println("Part two ${partTwo()}")
 }
 
 
@@ -40,12 +39,10 @@ fun partOne(memory: MutableList<String>): Int {
             tempString2 += value
         }
         duplicate = history.contains(tempString2)
+        if (duplicate) {
+            println("Part two ${history.size - history.indexOf(tempString2)}")
+        }
         count++
     }
     return count
-}
-
-fun partTwo(): Int {
-    var sum = 0
-    return sum
 }
