@@ -8,15 +8,16 @@ fun main(args: Array<String>) {
     val inputStream: InputStream = File("/Users/zangardiw/Sandbox/KotlinAdventOfCode2017/src/day4/Day4Input.txt").inputStream()
     val inputString = inputStream.bufferedReader().use { it.readText() }
     println("Part one ${partOne(inputString)}")
-    println("Part two ${partTwo()}")
+    println("Part two ${partTwo(inputString)}")
 }
 
 fun partOne(input: String): Int {
     var total = 0;
-    input.split('\n').forEachIndexed line@ { index, password ->
+    input.split('\n').forEach line@ { password ->
         password.split(' ').forEachIndexed word@ { passwordIndex, word ->
-            (0 until password.split(' ').size)
-                    .filter { passwordIndex != it && word == password.split(' ')[it] }
+            val row = password.split(' ')
+            (0 until row.size)
+                    .filter { passwordIndex != it && word == row[it] }
                     .forEach { return@line }
         }
         total++
@@ -24,6 +25,29 @@ fun partOne(input: String): Int {
     return total
 }
 
-fun partTwo(): Int {
-    return 0
+fun partTwo(input: String): Int {
+    var total = 0;
+    input.split('\n').forEach line@ { password ->
+        password.split(' ').forEachIndexed word@ { passwordIndex, word ->
+            val row = password.split(' ')
+            (0 until row.size)
+                    .filter { passwordIndex != it && word.length == row[it].length }
+                    .forEach {
+                        if (word == row[it]) {
+                            return@line
+                        }
+                        var temp = row[it]
+                        word.split("").forEach { letter ->
+                            if (temp.contains(letter)) {
+                                temp = temp.replaceFirst(letter, "")
+                            }
+                        }
+                        if (temp.isEmpty()) {
+                            return@line
+                        }
+                    }
+        }
+        total++
+    }
+    return total
 }
